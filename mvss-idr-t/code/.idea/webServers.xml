@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2ac310ec-7985-451c-aff4-6254fe015f58" name="dd">
+        <fileTransfer rootFolder="/home/qiuyu/mvss-idr-t/code" accessType="SFTP" host="10.143.12.19" port="22" sshConfigId="2051e17a-ae7a-4296-ae3d-7efdb4deedb3" sshConfig="qiuyu@10.143.12.19:22 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
