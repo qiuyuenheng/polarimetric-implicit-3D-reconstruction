@@ -57,13 +57,13 @@ The data is organized as follows:
 
 - Stage1 Training
 
-  cd ./MVSS/mvss-idr-t/code
-  python training/exp_runner.py
+      cd ./MVSS/mvss-idr-t/code
+      python training/exp_runner.py
 
 - Stage2 and Stage3 Training
 
-  cd ./MVSS/mvss-stage23/code
-  python training/exp_runner.py
+      cd ./MVSS/mvss-stage23/code
+      python training/exp_runner.py
 
 The final results are saved in the exps/{object_name} folder.
 
@@ -75,10 +75,22 @@ Place your object in the dtu folder. More information will be updated later.
 
 Cite as below if you find this repository is helpful to your project:
 
-Yariv, L., Kasten, Y., Moran, D., Galun, M., Atzmon, M., Ronen, B., & Lipman, Y. (2020). Multiview neural surface reconstruction by disentangling geometry and appearance. Advances in Neural Information Processing Systems, 33, 2492-2502.
+    @article{yariv2020multiview,
+      title={Multiview neural surface reconstruction by disentangling geometry and appearance},
+      author={Yariv, Lior and Kasten, Yoni and Moran, Dror and Galun, Meirav and Atzmon, Matan and Ronen, Basri and Lipman, Yaron},
+      journal={Advances in Neural Information Processing Systems},
+      volume={33},
+      pages={2492--2502},
+      year={2020}
+    }
 
-Shao, M., Xia, C., Duan, D., & Wang, X. (2024). Polarimetric inverse rendering for transparent shapes reconstruction. IEEE Transactions on Multimedia.
-
+    @article{shao2024polarimetric,
+      title={Polarimetric inverse rendering for transparent shapes reconstruction},
+      author={Shao, Mingqi and Xia, Chongkun and Duan, Dongxu and Wang, Xueqian},
+      journal={IEEE Transactions on Multimedia},
+      year={2024},
+      publisher={IEEE}
+    }
 ## Acknowledgement
 
 Some code snippets are borrowed from IDR (https://github.com/lioryariv/idr), NEISF (https://github.com/sony/NeISF) and PIR (https://github.com/shaomq2187/TransPIR). Thanks for these great projects.
