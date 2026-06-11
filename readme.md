@@ -1,10 +1,13 @@
 # PIR-VPR
+
 This is the official repo for the implementation of "High-Fidelity Polarimetric Implicit 3D Reconstruction with View-Dependent Physical Representation" paper (AAAI 2025).
 
 ![pipeline](pipeline.png)
 
 ### Usage
+
 #### Data Convention
+
 The data is organized as follows:
 
 <case_name>
@@ -38,30 +41,35 @@ The data is organized as follows:
     |-- DOLP
 
 ### Setup
-<details>
-  <summary>Dependencies (click to expand)</summary>
-  - python==3.10
-  - torch==2.0.0
-  - cuda==11.8
-  - torch3d
-  - trimesh
-</details>
+
+Dependencies (click to expand):
+
+- python==3.10
+- torch==2.0.0
+- cuda==11.8
+- torch3d
+- trimesh
 
 ### Running
+
 - Stage1 Training
+
 cd ./MVSS/mvss-idr-t/code
 python training/exp_runner.py
 
 - Stage2 and Stage3 Training
+
 cd ./MVSS/mvss-stage23/code
 python training/exp_runner.py
 
 The final results are saved in the exps/{object_name} folder.
 
 ### Train PIR-VPR with your custom data
+
 Place your object in the dtu folder. More information will be updated later.
 
 ## Citation
+
 Cite as below if you find this repository is helpful to your project:
 
 @article{yariv2020multiview,
@@ -82,4 +90,5 @@ Cite as below if you find this repository is helpful to your project:
 }
 
 ## Acknowledgement
+
 Some code snippets are borrowed from [IDR](https://github.com/lioryariv/idr), [NEISF](https://github.com/sony/NeISF) and [PIR](https://github.com/shaomq2187/TransPIR). Thanks for these great projects.
