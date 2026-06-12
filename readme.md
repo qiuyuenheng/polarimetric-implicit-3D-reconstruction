@@ -53,6 +53,10 @@ The data is organized as follows:
 
 </details>
 
+#### Dataset Acquisition
+The datasets required for experiments can be obtained from the NeRSP (https://github.com/PRIS-CV/NeRSP) project repository.
+
+
 ### Running
 
 - Stage1 Training
